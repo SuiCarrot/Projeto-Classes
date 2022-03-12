@@ -12,7 +12,7 @@ body {
 
 #cabecalho{
 	padding: 150px;
-	background-image: url('./media/images/Loading_screen_Darkest_Dungeon.webp');
+	background-image: url('../media/images/Loading_screen_Darkest_Dungeon.webp');
 	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
 	font-family: 'Gothic A1', sans-serif;
 }
 #classes{
-	background: #d2d2c1 url('./media/images/background.jpg');
+	background: #d2d2c1 url('../media/images/background.jpg');
 	background-color: black;
 	background-position-x: center;
 	background-repeat: no-repeat;
