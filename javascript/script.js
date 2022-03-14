@@ -37,7 +37,7 @@ btn.addEventListener("click", function () {
     classe.innerText = "Bounty Hunter";
     descricao.innerText = "Sinister and precise, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. He has found that simply striking before thinking is an ineffective way to kill, so he has taught himself many ways to take advantage of his foe's vulnerabilities.If they wear armor, he can find the weak points in it. If they are reeling from a hit, he'll make a surprise attack to strike it down."  
     document.getElementById("img-container").style.backgroundImage = "url('./media/images/bonty-hunter-left.png')";
-    document.getElementById("img-container-2").style.backgroundImage = "url('./media/images/bonty-hunter-right.png')";
+    document.getElementById("img-container-2").style.backgroundImage = "url('./media/images/crusader-right.png')";
     btn.setAttribute('value', 'sixth')
   }
   else if(btn.value == "sixth"){
