@@ -22,22 +22,22 @@ btn.addEventListener("click", function () {
   else if(btn.value == "third"){
     classe.innerText = "Highwayman";
     descricao.innerText = "A bandit seeking redemption on an old road, the Highwayman is one of the fastest classes in the game and is able to dish out a lot of damage quickly. He can be placed in both the front ranks and rend enemies with his short sword, or he can pursue enemies from the back with his trusty pistol. He has a lower HP value than most classes, but makes up for this with high evasion."  
-    document.getElementById("img-container").style.backgroundImage = "url('media/images/highwayman-left.png')";
-    document.getElementById("img-container-2").style.backgroundImage = "url('media/images/highwayman-right.png')";
+    document.getElementById("img-container").style.backgroundImage = "url('./media/images/highwayman-left.png')";
+    document.getElementById("img-container-2").style.backgroundImage = "url('./media/images/highwayman-right.png')";
     btn.setAttribute('value', 'fourth')
   }
   else if(btn.value == "fourth"){
     classe.innerText = "Plague Doctor";
     descricao.innerText = "A doctor, researcher and alchemist who prefers to hang back, eating away at her foes with stacking damage-over-time abilities like toxic clouds & plague-filled grenades. She is equally effective in a support role, blinding and confusing foes while enhancing a party's survival with damage-increasing tonics, and remedies for bleed and blight effects."  
-    document.getElementById("img-container").style.backgroundImage = "url('/media/images/plague-doctor-left.png')";
-    document.getElementById("img-container-2").style.backgroundImage = "url('/media/images/plague-doctor-right.png')";
+    document.getElementById("img-container").style.backgroundImage = "url('./media/images/plague-doctor-left.png')";
+    document.getElementById("img-container-2").style.backgroundImage = "url('./media/images/plague-doctor-right.png')";
     btn.setAttribute('value', 'fifth')
   }
   else if(btn.value == "fifth"){
     classe.innerText = "Bounty Hunter";
     descricao.innerText = "Sinister and precise, the Bounty Hunter specializes in targeting a single foe to deliver its head for the reward. He has found that simply striking before thinking is an ineffective way to kill, so he has taught himself many ways to take advantage of his foe's vulnerabilities.If they wear armor, he can find the weak points in it. If they are reeling from a hit, he'll make a surprise attack to strike it down."  
-    document.getElementById("img-container").style.backgroundImage = "url('../media/images/bonty-hunter-left.png')";
-    document.getElementById("img-container-2").style.backgroundImage = "url('.../media/images/bonty-hunter-right.png')";
+    document.getElementById("img-container").style.backgroundImage = "url('./media/images/bonty-hunter-left.png')";
+    document.getElementById("img-container-2").style.backgroundImage = "url('./media/images/bonty-hunter-right.png')";
     btn.setAttribute('value', 'sixth')
   }
   else if(btn.value == "sixth"){
@@ -50,8 +50,8 @@ btn.addEventListener("click", function () {
   else if(btn.value == "seventh"){
     classe.innerText = "Jester";
     descricao.innerText = "In the darkest depths of these twisted lands few things are as welcomed as a good laugh, a merry song, and razor sharp blade. The Jester brings all of these in spades. Armed with a sickle and lute, this maniacal minstrel is a versatile class that has several tricks up his sleeves. As an entertainer, he can make a stressful night of camping turn into a night of merriment and wit. The melodious riffs of his lute will make any party member's mind quiet as he encourages them to strike quickly and precisely like a tiger."  
-    document.getElementById("img-container").style.backgroundImage = "url('../media/images/jester-left.png')";
-    document.getElementById("img-container-2").style.backgroundImage = "url('../media/images/jester-right.png')";
+    document.getElementById("img-container").style.backgroundImage = "url('./media/images/jester-left.png')";
+    document.getElementById("img-container-2").style.backgroundImage = "url('./media/images/jester-right.png')";
     btn.setAttribute('value', 'first')
   }
 });
