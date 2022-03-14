@@ -49,7 +49,7 @@ header{
 }
 #classes{
 	flex-wrap: wrap;
-	height: 70%;
+	height: 80%;
 	background: #d2d2c1 url('../media/images/background.jpg');
 	background-color: black;
 	background-position-x: center;
@@ -73,10 +73,6 @@ header{
 	background-position: center;
 /* 	border: 1px solid black; */
 }
-#img1{
-	width: 100%;
-	max-width: 100%;
-}
 #img-container-2{
 	min-width: 15%;
 	display: flex;
@@ -88,13 +84,10 @@ header{
 	background-position: center;
 /* 	border: 1px solid black; */
 }
-#img2{
-	width: 100%;
-	max-width: 100%;
-}
 
 #botao-proximo{
 	margin-top: 60px;
+	margin-right: 85px;
 	background-color: #660000;
 	border: none;
 	color: rgb(216, 212, 212);
